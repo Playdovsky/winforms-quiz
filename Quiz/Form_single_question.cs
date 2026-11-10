@@ -36,6 +36,7 @@ namespace Quiz
             currentQuestion = question;
             if (question.Number == 1)
             {
+                Program.QuizTimer.Start();
                 button_previous.Hide();
             }
 
@@ -61,7 +62,7 @@ namespace Quiz
                 }
             }
 
-            if (this.currentQuestion.Number == Program.SingleQuestionsList.Count())
+            if (this.currentQuestion.Number == Program.QuestionsList.Count())
             {
                 button_next.Text = "Zakończ";
             }
@@ -84,7 +85,7 @@ namespace Quiz
                 }
             }
 
-            if (this.currentQuestion?.Number < Program.SingleQuestionsList.Count())
+            if (this.currentQuestion?.Number < Program.QuestionsList.Count())
             {
                 Program.QuestionForms[currentQuestion.Number].Show();
                 this.Hide();
@@ -112,7 +113,7 @@ namespace Quiz
 
         private void Form_single_question_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var result = MessageBox.Show("Zamknięcie pytania spowoduje zamknięcie całej aplikacji. Czy na pewno chcesz wyjść?",
+            DialogResult result = MessageBox.Show("Zamknięcie pytania spowoduje zamknięcie całej aplikacji. Czy na pewno chcesz wyjść?",
                 "Ostrzeżenie",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Warning

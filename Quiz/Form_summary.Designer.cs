@@ -31,6 +31,7 @@
             label_title = new Label();
             label_subtitle = new Label();
             flowLayoutPanel_answers_summary = new FlowLayoutPanel();
+            label_timer = new Label();
             SuspendLayout();
             // 
             // label_title
@@ -57,21 +58,32 @@
             // flowLayoutPanel_answers_summary
             // 
             flowLayoutPanel_answers_summary.AutoScroll = true;
-            flowLayoutPanel_answers_summary.Location = new Point(12, 65);
+            flowLayoutPanel_answers_summary.Location = new Point(12, 126);
             flowLayoutPanel_answers_summary.Name = "flowLayoutPanel_answers_summary";
             flowLayoutPanel_answers_summary.Size = new Size(575, 373);
             flowLayoutPanel_answers_summary.TabIndex = 2;
+            // 
+            // label_timer
+            // 
+            label_timer.AutoSize = true;
+            label_timer.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label_timer.Location = new Point(206, 85);
+            label_timer.Name = "label_timer";
+            label_timer.Size = new Size(182, 15);
+            label_timer.TabIndex = 3;
+            label_timer.Text = "Quiz zakończony w 5 min i 15 sek";
             // 
             // Form_summary
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(602, 450);
+            ClientSize = new Size(602, 511);
+            Controls.Add(label_timer);
             Controls.Add(flowLayoutPanel_answers_summary);
             Controls.Add(label_subtitle);
             Controls.Add(label_title);
             Name = "Form_summary";
-            Text = "Podsumowanie";
+            Text = "Powojenna Rumunia Quiz - Podsumowanie";
             FormClosing += Form_summary_FormClosing;
             ResumeLayout(false);
             PerformLayout();
@@ -82,5 +94,6 @@
         private Label label_title;
         private Label label_subtitle;
         private FlowLayoutPanel flowLayoutPanel_answers_summary;
+        private Label label_timer;
     }
 }

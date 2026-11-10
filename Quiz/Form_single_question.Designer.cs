@@ -44,10 +44,10 @@
             // label_question
             // 
             label_question.AutoSize = true;
-            label_question.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label_question.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
             label_question.Location = new Point(12, 9);
             label_question.Name = "label_question";
-            label_question.Size = new Size(61, 21);
+            label_question.Size = new Size(60, 20);
             label_question.TabIndex = 0;
             label_question.Text = "Pytanie";
             // 
@@ -164,7 +164,7 @@
             // 
             // button_next
             // 
-            button_next.Location = new Point(155, 303);
+            button_next.Location = new Point(556, 303);
             button_next.Name = "button_next";
             button_next.Size = new Size(131, 23);
             button_next.TabIndex = 10;
@@ -176,7 +176,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(298, 338);
+            ClientSize = new Size(699, 338);
             Controls.Add(button_next);
             Controls.Add(button_previous);
             Controls.Add(radioButton_answer8);

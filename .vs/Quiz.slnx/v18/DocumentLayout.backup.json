@@ -7,40 +7,44 @@
       "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\singlequestionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\singlequestionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\questionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\questionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_single_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_single_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_multiple_questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_multiple_questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E43A228B-F625-42DB-AF7D-0DCC8F6E703C}|Quiz\\Quiz.csproj|G:\\Visual Studio 2026 repos\\Quiz\\quiz\\form_single_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E43A228B-F625-42DB-AF7D-0DCC8F6E703C}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_single_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_single_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_single_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E43A228B-F625-42DB-AF7D-0DCC8F6E703C}|Quiz\\Quiz.csproj|G:\\Visual Studio 2026 repos\\Quiz\\quiz\\form_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E43A228B-F625-42DB-AF7D-0DCC8F6E703C}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_start.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_start.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_multiple_questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_multiple_questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\form_single_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\form_single_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\questionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\questionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\multiplequestionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\multiplequestionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|g:\\visual studio 2026 repos\\quiz\\quiz\\singlequestionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18ABBF-E02A-E2AF-D03E-AE129A6416F6}|Quiz\\Quiz.csproj|solutionrelative:quiz\\singlequestionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,112 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form_summary.cs",
-              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_summary.cs",
-              "RelativeDocumentMoniker": "Quiz\\Form_summary.cs",
-              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_summary.cs",
-              "RelativeToolTip": "Quiz\\Form_summary.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAhwFYAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T09:07:33.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form_summary.cs [Design]",
-              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_summary.cs",
-              "RelativeDocumentMoniker": "Quiz\\Form_summary.cs",
-              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_summary.cs [Design]",
-              "RelativeToolTip": "Quiz\\Form_summary.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T08:57:14.722Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form_single_question.cs",
-              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_single_question.cs",
-              "RelativeDocumentMoniker": "Quiz\\Form_single_question.cs",
-              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_single_question.cs",
-              "RelativeToolTip": "Quiz\\Form_single_question.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAASwF0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T14:01:49.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Program.cs",
-              "RelativeDocumentMoniker": "Quiz\\Program.cs",
-              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Program.cs",
-              "RelativeToolTip": "Quiz\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:28:59.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuestionClass.cs",
-              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\QuestionClass.cs",
-              "RelativeDocumentMoniker": "Quiz\\QuestionClass.cs",
-              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\QuestionClass.cs",
-              "RelativeToolTip": "Quiz\\QuestionClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:22:46.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form_start.cs",
-              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_start.cs",
-              "RelativeDocumentMoniker": "Quiz\\Form_start.cs",
-              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_start.cs",
-              "RelativeToolTip": "Quiz\\Form_start.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:06:12.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SingleQuestionClass.cs",
-              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\SingleQuestionClass.cs",
-              "RelativeDocumentMoniker": "Quiz\\SingleQuestionClass.cs",
-              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\SingleQuestionClass.cs",
-              "RelativeToolTip": "Quiz\\SingleQuestionClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:30:40.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form_start.cs [Design]",
-              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_start.cs",
-              "RelativeDocumentMoniker": "Quiz\\Form_start.cs",
-              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_start.cs [Design]",
-              "RelativeToolTip": "Quiz\\Form_start.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T12:40:52.476Z"
             },
             {
               "$type": "Document",
@@ -166,19 +69,135 @@
               "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_single_question.cs [Design]",
               "RelativeToolTip": "Quiz\\Form_single_question.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:17:56.643Z"
+              "WhenOpened": "2026-11-10T13:32:34.451Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_multiple_questions.cs",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_multiple_questions.cs",
+              "RelativeDocumentMoniker": "Quiz\\Form_multiple_questions.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_multiple_questions.cs",
+              "RelativeToolTip": "Quiz\\Form_multiple_questions.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T13:30:06.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Program.cs",
+              "RelativeDocumentMoniker": "Quiz\\Program.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Program.cs",
+              "RelativeToolTip": "Quiz\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T12:42:13.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form_summary.cs",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_summary.cs",
+              "RelativeDocumentMoniker": "Quiz\\Form_summary.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_summary.cs",
+              "RelativeToolTip": "Quiz\\Form_summary.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T12:42:49.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_summary.cs [Design]",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_summary.cs",
+              "RelativeDocumentMoniker": "Quiz\\Form_summary.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_summary.cs [Design]",
+              "RelativeToolTip": "Quiz\\Form_summary.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T13:50:28.622Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form_single_question.cs",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_single_question.cs",
+              "RelativeDocumentMoniker": "Quiz\\Form_single_question.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_single_question.cs",
+              "RelativeToolTip": "Quiz\\Form_single_question.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T14:45:18.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form_start.cs [Design]",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_start.cs",
+              "RelativeDocumentMoniker": "Quiz\\Form_start.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_start.cs [Design]",
+              "RelativeToolTip": "Quiz\\Form_start.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T15:14:27.884Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form_multiple_questions.cs [Design]",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_multiple_questions.cs",
+              "RelativeDocumentMoniker": "Quiz\\Form_multiple_questions.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_multiple_questions.cs [Design]",
+              "RelativeToolTip": "Quiz\\Form_multiple_questions.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T13:40:55.308Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuestionClass.cs",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\QuestionClass.cs",
+              "RelativeDocumentMoniker": "Quiz\\QuestionClass.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\QuestionClass.cs",
+              "RelativeToolTip": "Quiz\\QuestionClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T12:39:44.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SingleQuestionClass.cs",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\SingleQuestionClass.cs",
+              "RelativeDocumentMoniker": "Quiz\\SingleQuestionClass.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\SingleQuestionClass.cs",
+              "RelativeToolTip": "Quiz\\SingleQuestionClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T12:39:38.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Form_start.Designer.cs",
-              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_start.Designer.cs",
-              "RelativeDocumentMoniker": "Quiz\\Form_start.Designer.cs",
-              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\Form_start.Designer.cs",
-              "RelativeToolTip": "Quiz\\Form_start.Designer.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Title": "MultipleQuestionClass.cs",
+              "DocumentMoniker": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\MultipleQuestionClass.cs",
+              "RelativeDocumentMoniker": "Quiz\\MultipleQuestionClass.cs",
+              "ToolTip": "G:\\Visual Studio 2026 repos\\Quiz\\Quiz\\MultipleQuestionClass.cs",
+              "RelativeToolTip": "Quiz\\MultipleQuestionClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T14:37:44.355Z"
+              "WhenOpened": "2026-11-10T12:39:28.192Z",
+              "EditorCaption": ""
             }
           ]
         }

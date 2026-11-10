@@ -9,5 +9,6 @@ namespace Quiz
         protected internal int Number { get; set; }
         protected internal string? Question { get; set; }
         protected internal string[]? Answers { get; set; }
+        protected internal bool isCorrect = false;
     }
 }

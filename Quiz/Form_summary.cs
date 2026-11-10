@@ -13,19 +13,38 @@ namespace Quiz
         public Form_summary()
         {
             InitializeComponent();
+            Program.QuizTimer.Stop();
             CountCorrectAnswers();
             GenerateSummary();
+
+            TimeSpan elapsed = Program.QuizTimer.Elapsed;
+            label_timer.Text = $"Quiz zakończony w {elapsed.Minutes} min, {elapsed.Seconds} sek";
         }
 
         public void CountCorrectAnswers()
         {
-            int numberOfQuestions = Program.SingleQuestionsList.Count;
+            int numberOfQuestions = Program.QuestionsList.Count;
             int numberOfCorrectAnswers = 0;
-            foreach (SingleQuestionClass question in Program.SingleQuestionsList)
+            foreach (QuestionClass question in Program.QuestionsList)
             {
-                if (question.SelectedAnswerIndex == question.CorrectAnswerIndex)
+                if (question is SingleQuestionClass singleQuestion)
                 {
-                    numberOfCorrectAnswers++;
+                    if (singleQuestion.SelectedAnswerIndex == singleQuestion.CorrectAnswerIndex)
+                    {
+                        numberOfCorrectAnswers++;
+                        singleQuestion.isCorrect = true;
+                    }
+                }
+                else if (question is MultipleQuestionClass multipleQuestion)
+                {
+                    var sortedSelectedAnswers = multipleQuestion.SelectedAnswersIndexes.OrderBy(x => x);
+                    var sortedCorrectAnswers = multipleQuestion.CorrectAnswersIndexes.OrderBy(x => x);
+
+                    if (sortedSelectedAnswers.SequenceEqual(sortedCorrectAnswers))
+                    {
+                        numberOfCorrectAnswers++;
+                        multipleQuestion.isCorrect = true;
+                    }
                 }
             }
 
@@ -49,45 +68,60 @@ namespace Quiz
         {
             flowLayoutPanel_answers_summary.Controls.Clear();
 
-            foreach (SingleQuestionClass question in Program.SingleQuestionsList)
+            foreach (QuestionClass question in Program.QuestionsList)
             {
                 Label label_question = new Label();
                 label_question.Width = flowLayoutPanel_answers_summary.Width - 30;
                 label_question.AutoSize = true;
+                Label label_answer = new Label();
+                label_answer.Width = flowLayoutPanel_answers_summary.Width - 30;
+                label_answer.AutoSize = true;
 
-                bool isCorrect = false;
+                string selectedAnswerText = "Brak odpowiedzi";
+                string correctAnswerText = "";
 
-                if (question.SelectedAnswerIndex == question.CorrectAnswerIndex)
+                if (question is SingleQuestionClass singleQuestion)
                 {
-                    isCorrect = true;
+                    if (singleQuestion.SelectedAnswerIndex >= 0 && singleQuestion.Answers != null)
+                    {
+                        selectedAnswerText = singleQuestion.Answers[singleQuestion.SelectedAnswerIndex];
+                    }
+
+                    correctAnswerText = singleQuestion.Answers[singleQuestion.CorrectAnswerIndex];
+                }
+                else if (question is MultipleQuestionClass multipleQuestion)
+                {
+                    if (multipleQuestion.SelectedAnswersIndexes != null && multipleQuestion.SelectedAnswersIndexes.Count > 0)
+                    {
+                        selectedAnswerText = string.Join(",\n", multipleQuestion.SelectedAnswersIndexes.OrderBy(i => i).Select(i => multipleQuestion.Answers?[i]));
+                    }
+
+                    if (multipleQuestion.CorrectAnswersIndexes != null)
+                    {
+                        correctAnswerText = string.Join(",\n", multipleQuestion.CorrectAnswersIndexes.OrderBy(i => i).Select(i => multipleQuestion.Answers?[i]));
+                    }
                 }
 
-                if (isCorrect)
+                label_question.Text = $"Pytanie {question.Number}: {question.Question}\n\n";
+
+                if (question.isCorrect)
                 {
-                    label_question.ForeColor = Color.Green;
-                    label_question.Text = 
-                        "Pytanie " + question.Number.ToString() + ": " + question.Question
-                        + "\nTwoja odpowiedź: " + question.Answers?[question.SelectedAnswerIndex] + " (Poprawna!)\n\n";
+                    label_answer.ForeColor = Color.Green;
+                    label_answer.Text =
+                        $"Zaznaczono:\n{selectedAnswerText} (Poprawnie!)" +
+                        "\n\n_______________________________________________________________________\n\n";
                 }
                 else
                 {
-                    label_question.ForeColor = Color.Red;
-                    string selectedAnswer = "Brak odpoweidzi";
-                    
-                    if (question.Answers?[question.SelectedAnswerIndex] != null)
-                    {
-                        selectedAnswer = question.Answers[question.SelectedAnswerIndex];
-                    }
-
-                    string correctAnswer = question.Answers[question.CorrectAnswerIndex];
-                    
-                    label_question.Text = 
-                        "Pytanie " + question.Number.ToString() + ": " + question.Question
-                        + "\nTwoja odpowiedź: " + selectedAnswer + " (Błędna)"
-                        + "\nPoprawna odpowiedź: " + correctAnswer + "\n\n";
+                    label_answer.ForeColor = Color.Red;
+                    label_answer.Text =
+                        $"Zaznaczono:\n{selectedAnswerText} (Błędnie)\n\n" +
+                        $"Poprawne odpowiedzi:\n{correctAnswerText}" +
+                        "\n\n_______________________________________________________________________\n\n";
                 }
 
                 flowLayoutPanel_answers_summary.Controls.Add(label_question);
+                flowLayoutPanel_answers_summary.Controls.Add(label_answer);
             }
         }
 
