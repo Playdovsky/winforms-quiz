@@ -7,6 +7,7 @@ namespace Quiz
     internal class SingleQuestionClass : QuestionClass
     {
         public int CorrectAnswerIndex { get; set; }
+        public int SelectedAnswerIndex { get; set; }
 
         public SingleQuestionClass(int number, string question, string[] answers, int correctAnswerIndex)
         {

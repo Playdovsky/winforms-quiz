@@ -16,3 +16,5 @@ G:\Visual Studio 2026 repos\Quiz\Quiz\obj\Debug\net10.0-windows\Quiz.genruntimec
 G:\Visual Studio 2026 repos\Quiz\Quiz\obj\Debug\net10.0-windows\ref\Quiz.dll
 G:\Visual Studio 2026 repos\Quiz\Quiz\obj\Debug\net10.0-windows\Quiz.csproj.Up2Date
 G:\Visual Studio 2026 repos\Quiz\Quiz\obj\Debug\net10.0-windows\Quiz.Form_single_question.resources
+G:\Visual Studio 2026 repos\Quiz\Quiz\obj\Debug\net10.0-windows\Quiz.Form_summary.resources
+G:\Visual Studio 2026 repos\Quiz\Quiz\obj\Debug\net10.0-windows\Quiz.sourcelink.json

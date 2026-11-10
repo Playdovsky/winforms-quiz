@@ -12,7 +12,7 @@ namespace Quiz
     {
 
         private RadioButton[] radioButtons;
-        private QuestionClass currentQuestion;
+        private SingleQuestionClass? currentQuestion;
 
         public Form_single_question()
         {
@@ -60,6 +60,11 @@ namespace Quiz
                     radioButtons[i].Visible = false;
                 }
             }
+
+            if (this.currentQuestion.Number == Program.SingleQuestionsList.Count())
+            {
+                button_next.Text = "Zakończ";
+            }
         }
 
         private void button_previous_Click(object sender, EventArgs e)
@@ -70,19 +75,38 @@ namespace Quiz
 
         private void button_next_Click(object sender, EventArgs e)
         {
-            foreach (RadioButton rb in radioButtons)
+            for (int i = 0; i < radioButtons.Length; i++)
             {
-                if (rb.Checked && rb.Tag?.ToString() == "1")
+                if (radioButtons[i].Checked)
                 {
-                    currentQuestion.IsGoodAnswerSelected = true;
-                    MessageBox.Show("Poprawna odpowiedź, jupiii!");
+                    currentQuestion?.SelectedAnswerIndex = i;
+                    break;
                 }
             }
 
-            if (this.currentQuestion.Number < Program.SingleQuestionsList.Count())
+            if (this.currentQuestion?.Number < Program.SingleQuestionsList.Count())
             {
                 Program.QuestionForms[currentQuestion.Number].Show();
                 this.Hide();
+            }
+            else
+            {
+                var result = MessageBox.Show("To było ostatnie pytanie, jeżeli zakończysz teraz twoje odpowiedzi zostaną zatwierdzone i nie będą już mogły zostać zmienione. Czy na pewno chcesz zakończyć quiz?",
+                "Informacja",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Information
+                );
+
+                if (result == DialogResult.Yes)
+                {
+                    Form summaryForm = new Form_summary();
+                    summaryForm.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    return;
+                }
             }
         }
 
