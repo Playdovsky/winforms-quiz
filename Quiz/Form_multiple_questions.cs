@@ -74,6 +74,7 @@ namespace Quiz
 
         private void button_next_Click(object sender, EventArgs e)
         {
+            currentQuestion?.SelectedAnswersIndexes.Clear();
             for (int i = 0; i < checkBoxes.Length; i++)
             {
                 if (checkBoxes[i].Checked)
@@ -119,6 +120,10 @@ namespace Quiz
             if (result == DialogResult.Yes)
             {
                 System.Environment.Exit(0);
+            }
+            else
+            {
+                e.Cancel = true;
             }
         }
     }

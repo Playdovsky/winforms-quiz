@@ -87,7 +87,7 @@ namespace Quiz
                     "c) W rezultacie nieudanej rewolucji Nicolae Ceaușescu utrzymał się u władzy i rządził przez następne lata",
                     "d) W konluzji udanej rewolucji Nicolae i Elena Ceaușescu zostali aresztowani i sakzani na karę śmierci",
                     "e) Po rewolucji władzę w kraju bezkrwawo przejęła stara gwardia komunistyczna",
-                    "f) Powszechne protesty i przejście armii na stronę narodu dorpowadziły do ostatecznego upadku komunistycznego reżimu"
+                    "f) Powszechne protesty i przejście armii na stronę narodu doprowadziły do ostatecznego upadku komunistycznego reżimu"
                 ],
                 [1, 3, 5]
             ));
@@ -99,7 +99,7 @@ namespace Quiz
                     "b) Oficjalny program wymiany więźniów z Zachodem",
                     "c) Nadzorowany m.in. przez Eugena Țurcanu, uznany za okrutne zjawisko systemowe",
                     "d) Dotyczył wyłącznie pracy w kopalniach uranu",
-                    "e) Przerwany procesem i wyrokami śmierci dla organizatorów w 1954 r"
+                    "e) Przerwany procesem i wyrokami śmierci dla organizatorów w 1954 roku"
                 ],
                 [0, 2, 4]
             ));
@@ -125,6 +125,7 @@ namespace Quiz
                     Form_single_question form = new Form_single_question();
                     form.LoadQuestion(singleQuestionClass);
                     form.Hide();
+                    form.Icon = new Icon("Flag_of_Romania.ico");
                     QuestionForms.Add(form);
                 }
                 else if (questionClass is MultipleQuestionClass multipleQuestionClass)
@@ -132,6 +133,7 @@ namespace Quiz
                     Form_multiple_questions form = new Form_multiple_questions();
                     form.LoadQuestion(multipleQuestionClass);
                     form.Hide();
+                    form.Icon = new Icon("Flag_of_Romania.ico");
                     QuestionForms.Add(form);
                 }
             }

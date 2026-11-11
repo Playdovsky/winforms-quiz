@@ -17,6 +17,7 @@ namespace Quiz
             CountCorrectAnswers();
             GenerateSummary();
 
+            this.Icon = new Icon("Flag_of_Romania.ico");
             TimeSpan elapsed = Program.QuizTimer.Elapsed;
             label_timer.Text = $"Quiz zakończony w {elapsed.Minutes} min, {elapsed.Seconds} sek";
         }
@@ -71,11 +72,7 @@ namespace Quiz
             foreach (QuestionClass question in Program.QuestionsList)
             {
                 Label label_question = new Label();
-                label_question.Width = flowLayoutPanel_answers_summary.Width - 30;
                 label_question.AutoSize = true;
-                Label label_answer = new Label();
-                label_answer.Width = flowLayoutPanel_answers_summary.Width - 30;
-                label_answer.AutoSize = true;
 
                 string selectedAnswerText = "Brak odpowiedzi";
                 string correctAnswerText = "";
@@ -93,35 +90,34 @@ namespace Quiz
                 {
                     if (multipleQuestion.SelectedAnswersIndexes != null && multipleQuestion.SelectedAnswersIndexes.Count > 0)
                     {
-                        selectedAnswerText = string.Join(",\n", multipleQuestion.SelectedAnswersIndexes.OrderBy(i => i).Select(i => multipleQuestion.Answers?[i]));
+                        selectedAnswerText = string.Join("\n", multipleQuestion.SelectedAnswersIndexes.OrderBy(i => i).Select(i => multipleQuestion.Answers?[i]));
                     }
 
                     if (multipleQuestion.CorrectAnswersIndexes != null)
                     {
-                        correctAnswerText = string.Join(",\n", multipleQuestion.CorrectAnswersIndexes.OrderBy(i => i).Select(i => multipleQuestion.Answers?[i]));
+                        correctAnswerText = string.Join("\n", multipleQuestion.CorrectAnswersIndexes.OrderBy(i => i).Select(i => multipleQuestion.Answers?[i]));
                     }
                 }
 
-                label_question.Text = $"Pytanie {question.Number}: {question.Question}\n\n";
-
                 if (question.isCorrect)
                 {
-                    label_answer.ForeColor = Color.Green;
-                    label_answer.Text =
+                    label_question.ForeColor = Color.Green;
+                    label_question.Text = 
+                        $"Pytanie {question.Number}: {question.Question}\n\n" +
                         $"Zaznaczono:\n{selectedAnswerText} (Poprawnie!)" +
                         "\n\n_______________________________________________________________________\n\n";
                 }
                 else
                 {
-                    label_answer.ForeColor = Color.Red;
-                    label_answer.Text =
+                    label_question.ForeColor = Color.Red;
+                    label_question.Text = 
+                        $"Pytanie {question.Number}: {question.Question}\n\n" +
                         $"Zaznaczono:\n{selectedAnswerText} (Błędnie)\n\n" +
                         $"Poprawne odpowiedzi:\n{correctAnswerText}" +
                         "\n\n_______________________________________________________________________\n\n";
                 }
 
                 flowLayoutPanel_answers_summary.Controls.Add(label_question);
-                flowLayoutPanel_answers_summary.Controls.Add(label_answer);
             }
         }
 

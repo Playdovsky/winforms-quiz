@@ -123,6 +123,10 @@ namespace Quiz
             {
                 System.Environment.Exit(0);
             }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }
